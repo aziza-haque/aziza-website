@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0;
 }
 span{
     color:palevioletred;
@@ -9,10 +10,15 @@ h1{
 }
 .side-by-side{
     display: flex;
+    background-image: url(images/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-position: 0%;
 }
 .create-space{
     width:50%;
+    margin:55px;
     padding: 10px 10px;
+   
 }
 .link-button{
     text-decoration: none;
