@@ -1,32 +1,17 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin:0;
-}
-span{
-    color:palevioletred;
-}
-h1{
-    font-size: 45px;
-}
-.side-by-side{
+header{
     display: flex;
-    background-image: url(images/Frame\ 59.jpg);
-    background-repeat: no-repeat;
-    background-position: 0%;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
-.create-space{
-    width:50%;
-    margin:55px;
-    padding: 10px 10px;
-   
+.logo span {
+    color: #7d2ae8;
 }
-.link-button{
-    text-decoration: none;
-    padding: 10px 40px;
-    border-radius:5px ;
-     color:rgb(8, 7, 7);
-    background-image: linear-gradient(palevioletred,pink);
-}
-.survice {
-text-align: center;
+.navi{
+    margin-left: -300px;
+
 }
